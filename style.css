@@ -1,0 +1,170 @@
+body {
+	font-family: NanumGothic;
+	font-size: 1.5rem;
+	background-color: #ffffff;
+}
+
+.file-upload {
+	background-color: #f7f7f7;
+	width: 80%;
+	height: 70w;
+	margin: 0 auto;
+	margin-bottom: 20%;
+	padding: 5%;
+	border-radius: 20px;
+	border: 1px solid #bdbdbd;
+	position: center;
+}
+
+.file-upload-btn {
+	width: 80%;
+	height: 80px;
+	color: #fff;
+	background: #7248AE;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 4px solid #E8D9FF;
+	transition: all 0.2s ease;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 10%;
+}
+
+.file-upload-btn:hover {
+	background: #5C1DB5;
+	color: #ffffff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.file-upload-btn:active {
+	border: 0;
+	transition: all 0.2s ease;
+}
+
+.file-upload-content {
+	display: none;
+	text-align: center;
+}
+
+.file-upload-input {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	outline: none;
+	opacity: 0;
+	cursor: pointer;
+}
+
+
+.file-upload-image {
+	max-height: 80%;
+	max-width: 80%;
+	margin-bottom: 30px;
+	padding: 0px;
+	text-size-adjust: 100%;
+}
+
+.remove-image {
+	width: 100px;
+	margin: 50px;
+	color: #fff;
+	background: #860000;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 4px solid #ffc19e;
+	transition: all 0.2s ease;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.remove-image:hover {
+	background: #a81919;
+	color: #ffffff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+
+.remove-image:active {
+	border: 0;
+	transition: all 0.2s ease;
+}
+
+.nav-distance {
+	padding: 2.1% 7.7%;
+}
+
+.info_a {
+	text-align: right;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+
+.navbar {
+	background: #f4eee8;
+}
+
+.navbar-light .navbar-brand {
+	font-family: NanumGothic;
+	letter-spacing: 1px;
+	text-align: left;
+	color: #21094e;
+	/* text-shadow: 1px 1px 10px #f40; */
+}
+
+.section {
+	margin-top: 100px;
+}
+
+.title {
+	font-family: NanumGothic;
+	letter-spacing: 1px;
+	text-align: center;
+	color: #717171;
+	font-weight: 700;
+}
+
+.subtitle {
+	font-family: NanumGothic;
+	text-align: center;
+	color: #ed006d;
+	margin-top: 20px;
+	letter-spacing: -0.5px;
+	line-height: 50px;
+	font-style: italic;
+	font-weight: 700;
+}
+
+.result-message {
+	font-size: 30px;
+	font-weight: 700;
+	color: #DF4D4D;
+	/* text-shadow:1px 1px 3px #F361A6; */
+	
+}
+
+.image-title-wrap {
+	font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+	.navbar-brand {
+		font-size: 2rem;
+	}
+	.remove-image {
+		font-size: 1.5rem;
+	}
+	.result-message {
+		font-size: 2rem;
+	}
+
+}
