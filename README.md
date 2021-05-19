@@ -2,7 +2,7 @@
 
 <h3> 데뷔컨셉도 인공지능이 정해주는 시대!</h3>
 <h3> 이미지로 보는 당신의 찰떡 컨셉은?! </h3>
-<h4> 바로가기) https://ur-debut-concept.herokuapp.com/ 
+<h4> 바로가기) <a href = 'https://ur-debut-concept.herokuapp.com/' target='_blank'>https://ur-debut-concept.herokuapp.com/</a> 
 </h4>
 
 ---
